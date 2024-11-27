@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form uyugulaması</title>
+    <h1>select kulanımı</h1>
+      <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>Kişiler bilgileri</legend>
+            <label for="isim">isim</label><br><br>
+            <input type="text" name="isim" id="isim"><br><br>
+            <label for="soyad">soyad</label><br><br>
+            <input type="text" name="soyad" id="soyad"><br><br>
+            <input type="radio" name="cinsiyet" id="kız"><br><br>
+            <label for="kız">kız</label><br><br>
+            <input type="radio" name="cinsiyet" id="erke"><br><br>
+            <label for="erke">erke</label> <br><br>
+            <label for="Doğum tarihi">Doğum tarihi</label><br><br>
+          <input type="date" name="Doğum tarihi" id="Doğum tarihi"value="2024-01-1"><br><br>
+            
+        </fieldset>
+        <fieldset>
+        <legend>EĞTİM bilgileri</legend>
+        <label for="okul">okul</label><br><br>
+        <input type="text" id="okul"><br><br>
+        
+        <label for="sınıf">sınıf</label><br><br>
+        <input type="text" id="sınıf"> <br><br>
+        <label for="bolum">bolum</label>
+        <select name="bolum" id="bolum">
+            <option value="1">bilişim teknolojileri</option>
+            <option value="2"> moda</option>
+            <option value="3">gırafik</option>
+            <option value="4">çocuk gelişim</option>
+        </select><br><br>
+           <button type="submit"> kaydet</button><br><br>
+             <legend>Ek bilgileri</legend>
+            <textarea name="not" id="not" cols="50" rows="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nihil. Ipsam possimus soluta incidunt quam quis doloremque inventore non laborum, aliquid neque voluptatum ducimus ad excepturi? Nesciunt repudiandae saepe quaerat. </textarea><br><br>
+            <input type="checkbox" name="kabul" id="kabul">
+            <label for="kabul">kabul et</label>
+            <input type="checkbox" name="cerez" id="cerez">
+            <label for="cerez"> cerez kabul et  </label>
+
+        </fieldset>
+        
+        
+      </form>
+</head>
+<body>
+    
+</body>
+</html>
